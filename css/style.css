@@ -1,0 +1,429 @@
+.bg-haerul {
+  background: #27a0e6;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+
+.post-content img {
+  max-width: 100%;
+}
+
+.sidenav-trigger {
+  color: #444 !important;
+  margin-left: 5px !important;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-size: 1.2rem !important;
+}
+
+nav .brand-logo img {
+  height: 35px;
+  width: 35px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 951px) {
+  nav .brand-logo img {
+    margin-left: 35px !important;
+  }
+
+  .sidenav-trigger-first {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  nav .brand-logo img {
+    margin-left: 35px !important;
+  }
+  .sidenav-trigger-first {
+    display: none;
+  }
+}
+
+p {
+  line-height: 2rem;
+}
+
+.material-icons {  vertical-align: bottom !important; }
+
+.parallax-container {
+  min-height: 620px;
+  height: 700px;
+  line-height: 1;
+}
+
+
+.parallax img {
+  filter: opacity(1);
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax img {
+    max-height: 50%; /* or a little bit higher */
+    top: -50px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .parallax img {
+    max-height: 170%; /* or higher percentages. It's up to your taste */
+  }
+}
+
+.parallax .over {
+  content: "";
+  background: rgba(0, 0, 0, 0.356);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.parallax-bottom {
+  width: 100%;
+margin-top: -200px;
+margin-bottom: 10px;
+}
+
+.mygreen-text {
+  color: #155952;
+}
+.mygreen-text-2 {
+  color: #90ab79;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* carousel Flickity */
+
+.owl-nav {
+  text-align: center !important;
+}
+
+.owl-arrow {
+  margin: 10px;
+}
+
+.btn-lihatsemua {
+  margin-right: -17px;
+}
+
+.card .card-image img {
+  height: auto;
+  width: 100%;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+}
+
+#navbar-auto {
+  position: fixed;
+  top: -70px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+nav .sidenav-trigger-first {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
+}
+
+nav .sidenav-trigger-first i {
+  height: 56px;
+  line-height: 56px;
+  margin-left: -15px;
+}
+
+nav,
+nav .nav-wrapper i,
+nav a.sidenav-trigger-first,
+nav a.sidenav-trigger-first i,
+.nav-first {
+  height: 64px;
+  line-height: 64px;
+  background-color: transparent !important;
+  color: #444;
+}
+
+.nav-first {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+
+
+.text-shadow {
+  text-shadow: 1px 0.4px 0.1px rgba(0, 0, 0, 0.575);
+}
+
+#menu-first {
+  transition: all .3s ease;
+  background-color: transparent;
+}
+
+#menu-first.active {
+  animation: pulse 3s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: transparent;
+  }
+
+  20% {
+    background-color: rgba(0, 0, 0, 0.178);
+  }
+
+  30% {
+    background-color: transparent;
+  }
+}
+
+.pagination .disabled i {
+  color: rgb(235, 235, 235) !important;
+}
+
+.pagination li.active {
+  background-color: #e5f5ff !important;
+}
+
+.pagination li i {
+  color: #a3a3a3 !important;
+}
+
+.pagination li.active a {
+  color: rgb(0, 145, 234) !important;
+}
+
+.pagination li a {
+  color: rgb(150, 150, 150) !important;
+}
+
+
+@media only screen and (max-width:400px) {
+  .card-post {
+    height: 23em !important;
+  }
+  .post-title {
+    font-size: 2.8em !important;
+  }
+}
+
+@media only screen and (max-width:610px) {
+  .card-post {
+    height: 20em;
+  }
+  .post-title {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (max-width:729) {
+  .card-post {
+    height: 20em !important;
+  }
+  .post-title {
+    font-size: 2.8em !important;
+  }
+}
+
+@media only screen and (max-width:960px) {
+  .card-post {
+    height: 23em !important;
+  }
+  .post-title {
+    font-size: 2.8em !important;
+  }
+}
+
+
+@media only screen and (max-width:994px) {
+  .card-post {
+    height: 27em !important;
+  }
+  .post-title {
+    font-size: 2.8em !important;
+  }
+}
+
+@media only screen and (max-width:1010px) {
+  .card-post {
+    height: 24em !important;
+  }
+  .post-title {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (max-width:1119px) {
+  .card-post {
+    height: 23em !important;
+  }
+  .post-title {
+    font-size: 2.8em !important;
+  }
+}
+
+@media only screen and (max-width:1080px) {
+  .card-post {
+    height: 22em !important;
+  }
+  .post-title {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (max-width:1029px) {
+  .card-post {
+    height: 24em !important;
+  }
+  .post-title {
+    font-size: 3em !important;
+  }
+}
+
+
+@media only screen and (max-width:2000px) {
+  .card-post {
+    height: 23em;
+  }
+  .post-title {
+    font-size: 3em !important;
+  }
+}
+
+
+.card-title a {
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+}
+
+.card-title a:hover {
+  color: #000000 !important;
+}
+
+.container-post {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 96%;
+}
+
+  /*
+  When creating your CSS selector,
+  change "brown" to something of your choosing
+  */
+  .waves-effect.waves-blue .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(27, 167, 231, 0.192);
+   }
+  
+   @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+   .amiri{font-family: 'Amiri', serif;}
+
+   #map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+
+  .sidenav li {
+    float: none;
+    line-height: 48px;
+    width: 100% !important;
+  }
+
+  @font-face {
+    font-family: Amsterdam;
+    src: url(../font/Amsterdam\ Personal\ Use.ttf);
+  }
+  .amsterdam{font-family: 'Amsterdam';}
+  .amsterdam-0{font-family: 'Amsterdam'; font-size: 1.7rem;}
+  .amsterdam-1{font-family: 'Amsterdam'; font-size: 2rem;}
+
+  @font-face {
+    font-family: Marcellus;
+    src: url(../font/Marcellus-Regular.ttf);
+  }
+  .marcellus{font-family: 'Marcellus';}
+
+  .backdrop {
+    position: absolute;
+    content: "";
+    background-image: url(../img/bg-pattern.png);
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn {
+    flex: 1 1 auto;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0.8;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.452);
+    box-shadow: 0 0 20px rgba(245, 245, 245, 0.493);
+    border-radius: 100px;
+   }
+  
+  /* Demo Stuff End -> */
+  
+  /* <- Magic Stuff Start */
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-4 {
+    background-image: linear-gradient(to right, #0f3c37bf 0%, #2249495e 51%, #11473cd1 100%);
+    box-shadow: 0 2px 20px rgb(35, 74, 73);
+  }
+  
+  
+  /* Magic Stuff End -> */
